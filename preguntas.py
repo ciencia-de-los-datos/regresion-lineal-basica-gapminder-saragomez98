@@ -113,7 +113,7 @@ def pregunta_04():
     # Importe train_test_split
     # Importe mean_squared_error
     from sklearn.linear_model import LinearRegression
-    from sklearn.metrics import mean_squared_error, r2_score
+    from sklearn.metrics import mean_squared_error
     from sklearn.model_selection import train_test_split
 
     # Lea el archivo `gm_2008_region.csv` y asignelo al DataFrame `df`
