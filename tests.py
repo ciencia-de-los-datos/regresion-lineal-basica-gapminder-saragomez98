@@ -9,7 +9,6 @@ import sys
 import preguntas
 
 
-
 def test_01():
     """
     ---< Input/Output test case >----------------------------------------------------
