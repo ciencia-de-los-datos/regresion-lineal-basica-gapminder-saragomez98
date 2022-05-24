@@ -15,7 +15,7 @@ def pregunta_01():
     Complete el código presentado a continuación.
     """
     # Lea el archivo `gm_2008_region.csv` y asignelo al DataFrame `df`
-    df = pd.read_csv('gm_2008_region.csv')
+    df = pd.read_csv("gm_2008_region.csv")
 
     # Asigne la columna "life" a `y` y la columna "fertility" a `X`
     y = df['life'].values
@@ -50,7 +50,7 @@ def pregunta_02():
     df = pd.read_csv('gm_2008_region.csv')
 
     # Imprima las dimensiones del DataFrame
-    print(df.shape
+    print(df.shape)
 
     # Imprima la correlación entre las columnas `life` y `fertility` con 4 decimales.
     print(np.corrcoef(df['life'],df['fertility'])[1,0].round(4))
